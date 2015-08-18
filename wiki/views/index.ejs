@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discover the Caribbean</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+	<link rel="stylesheet" href="/style/custom.css">
+	<link rel="stylesheet" href="/custom.css">
+</head>
+<body>
+	<div class="wrapper">
+	<h1 class="header">List of Countries</h1>
+
+	
+	<% rows.forEach(function(ele){ %>
+		<p>
+		 <a href="/country/<%=ele.id%>"><%=ele.name%></a>
+		</p>
+
+	<%  })  %>
+	</div>
+
+
+
+</body>
+</html>

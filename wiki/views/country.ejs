@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= alias %></title>
+</head>
+<body>	
+		<h4>last Updated By: <%=userName %> at Time: <%=timestamp %> </h4>
+		<xmp theme="cerulean" style="display:none;">
+
+# <%= alias %>
+
+##  Overview
+<%= overview %>
+
+##  Sports
+<%= sports %>
+
+##  Music and Dance
+<%= musicAndDance %>
+
+##  Food
+<%= food %>
+
+##  Famous People
+<%= famousPeople %>
+
+
+ 
+
+</xmp>
+		<a href="/country/<%= id %>/edit">Update This Country</a><br>
+		<a href="/">Go Back</a>
+</body>	
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>

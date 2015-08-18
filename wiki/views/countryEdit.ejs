@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Editing</title>
+</head>
+<body>
+	<h1>Edit Country</h1>
+	<form method="POST" action="/country/<%= id %> ?_method=PUT">
+		Update Overview:
+		<textarea name="overview"><%= overview %></textarea>
+		Update Sports:
+		<textarea name="sports"><%= sports %></textarea>
+		Update Music and Dance:
+		<textarea name="musicAndDance"><%= musicAndDance %></textarea>
+		Update food:
+		<textarea name="food"><%= food %></textarea>				
+		Update Famous People:
+		<textarea name="famousPeople"><%= famousPeople %></textarea>
+		Update User Name:
+		<input type="text" name="userName" value= "<%= userName %>" >
+		Update Email:
+		<input type="text" name="email" value= "<%= email %>" >
+		<input type="submit"value="update">
+	</form>
+	<a href="/">go back</a>
+
+</body>
+</html>

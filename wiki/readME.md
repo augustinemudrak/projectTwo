@@ -1,0 +1,8 @@
+## Name and libraries
+The name of this project is wiki. All the libraries I used for this project were sqlite3, express, ejs, bodyParser, method override, and strapdownjs. All of these companies were the real winners of this project and I could not had do it without their Functionality.
+
+## Summery of the Project
+The project is a very simple wiki made to to give information on the Spanish speaking caribbean countries. The way to use the project is to load up the webpage by using my link that I will be sure to include at the bottom of this README. After you get to the links you will be at the index page which contains a list of countries and after this point you can click on any of the links to find out more information about that country. Now you will be in a markeddown page with information on the country from a general overview of the countries history to the famous people in the country. After you can decide to go back to the home/index page or update the page and then you will be taken to an edit form. At the edit form you can now edit any of the different types of information. You must include your email and then in case the page you worked on is edited you will be emailed. But only the most recent person to edit the post will be emailed. This is basically my project and I hope you enjoy using it.
+
+## Contact
+My eamil is augustinemudrak@gmail.com and you can contact me if you want to make any suggestions or improvements. If you are old school or not from the 21st century you could send me a letter, I live at 81 Hermann Ave Carteret, NJ 07008 USA, Earth, Milky Way, The Universe.
